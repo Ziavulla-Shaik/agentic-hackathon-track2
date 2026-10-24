@@ -1,0 +1,7 @@
+{
+    "llm_config": {
+        "class":"gemini",    
+        "model_name": "gemini-3.8-flash",
+        "temperature": 0
+    }
+}

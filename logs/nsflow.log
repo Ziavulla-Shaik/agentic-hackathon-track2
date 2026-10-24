@@ -1,0 +1,50 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\zakav\\hackathon']
+INFO:     Uvicorn running on http://localhost:4173 (Press CTRL+C to quit)
+INFO:     Started reloader process [11988] using StatReload
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\jwt\api_jwt.py:149: InsecureKeyLengthWarning: The HMAC key is 14 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  return self._jws.encode(
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:300: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:301: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:310: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  elif re.match('(flt)p?( \(default\))?$', token):
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:314: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  elif re.match('(dbl)p?( \(default\))?$', token):
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+2026-10-24 22:13:49 - root - INFO - frontend_dist_path: C:\Users\zakav\hackathon\.venv\Lib\site-packages\nsflow\prebuilt_frontend\dist
+2026-10-24 22:13:49 - root - INFO - Serving frontend from: C:\Users\zakav\hackathon\.venv\Lib\site-packages\nsflow\prebuilt_frontend\dist
+INFO:     Started server process [7988]
+INFO:     Waiting for application startup.
+2026-10-24 22:13:49 - root - INFO - FastAPI is starting up...
+2026-10-24 22:13:49 - root - INFO - Initializing NeuroSan config from environment variables...
+2026-10-24 22:13:49 - root - INFO - [Startup] Default NsConfig set to http://localhost:8080
+2026-10-24 22:13:49 - root - INFO - Initializing local database 'nss_local.db'...
+2026-10-24 22:13:49 - root - INFO - Local database 'nss_local.db' initialized
+INFO:     Application startup complete.
+INFO:     127.0.0.1:53166 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53166 - "GET /assets/index.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /assets/index.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53166 - "GET /api/v1/vite_config.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53166 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51395 - "GET /api/v1/ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53166 - "GET /api/v1/ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51395 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51395 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /api/v1/mcp/oauth/redirect_uri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53166 - "GET /api/v1/mcp/oauth/connections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50625 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50625 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /nsflow.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-10-24 22:14:26 - httpx - INFO - HTTP Request: GET http://localhost:8080/api/v1/list "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53598 - "GET /api/v1/list?connection_type=http&host=localhost&port=8080 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-10-24 22:14:58 - root - INFO - FastAPI is shutting down...
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7988]
+INFO:     Stopping reloader process [11988]

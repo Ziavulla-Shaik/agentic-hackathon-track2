@@ -1,0 +1,49 @@
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py:36: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py:36: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+  asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=14604)
+[ProcessLogBridgePlugin] Initialized (PID=14604)
+Manifest file C:\Users\zakav\hackathon\registries\manifest.hocon restored in 18.26 seconds.
+Reading C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+GIL state at server startup:  standard CPython build (GIL always enabled). CPython 3.15.1.  PYTHON_GIL=unset
+{"message": "Using Authorizer: neuro_san.service.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.516477", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent basic/music_nerd to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533199", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent basic/music_nerd (4721 bytes): 1828888902496", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533330", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_designer to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533380", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_designer (37536 bytes): 1828888618064", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533419", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_test_generator to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533452", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_test_generator (45042 bytes): 1828889273184", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533482", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent tools/internet_info_gatherer to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533513", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent tools/internet_info_gatherer (6411 bytes): 1828886936336", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533542", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_instructions_editor to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533579", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_instructions_editor (25590 bytes): 1828889009360", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533608", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent experimental/cruse_theme_agent to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533638", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent experimental/cruse_theme_agent (25875 bytes): 1828889009056", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533666", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent experimental/cruse_widget_agent to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533704", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent experimental/cruse_widget_agent (12988 bytes): 1828888767824", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533732", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_editor to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533762", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_editor (31284 bytes): 1828889269104", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533790", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_query_generator to allowed http service list", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533820", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_query_generator (8071 bytes): 1828886935696", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.533847", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting HTTP server instance (worker_id=0 of 1, pid=14604)", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.554388", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.582710", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.582934", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 956407 requests", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.583027", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.583104", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.583177", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\Users\\zakav\\hackathon\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.583242", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\Users\zakav\hackathon\registries for manifest ['C:\\Users\\zakav\\hackathon\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.585996", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.586528", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.589289", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.589719", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.590521", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HealthProbeServer failed to bind port 8081 (reuse_port=True): the platform doesn't support SO_REUSEPORT", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.593648", "source": "HttpServer", "message_type": "Error", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.594061", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[0] Start /api/v1/list", "user_id": "None", "Timestamp": "2026-10-24T22:14:26.342666", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "[0] 200 GET /api/v1/list (::1) 3.42ms", "user_id": "None", "Timestamp": "2026-10-24T22:14:26.343905", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "[0] Finish /api/v1/list", "user_id": "None", "Timestamp": "2026-10-24T22:14:26.344081", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}

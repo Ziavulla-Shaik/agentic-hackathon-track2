@@ -1,0 +1,103 @@
+2026-10-24 22:13:14 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:227 - Runner logging initialized (rich console enabled)
+2026-10-24 22:13:14 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py:36: DeprecationWarning: 'asyncio.WindowsSelectorEventLoopPolicy' is deprecated and slated for removal in Python 3.16
+2026-10-24 22:13:14 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan -   asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+2026-10-24 22:13:14 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py:36: DeprecationWarning: 'asyncio.set_event_loop_policy' is deprecated and slated for removal in Python 3.16
+2026-10-24 22:13:14 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan -   asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+2026-10-24 22:13:15 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Will watch for changes in these directories: ['C:\\Users\\zakav\\hackathon']
+2026-10-24 22:13:15 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Uvicorn running on http://localhost:4173 (Press CTRL+C to quit)
+2026-10-24 22:13:15 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Started reloader process [11988] using StatReload
+2026-10-24 22:13:37 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-10-24 22:13:37 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-10-24 22:13:37 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-10-24 22:13:37 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=14604)
+2026-10-24 22:13:37 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=14604)
+2026-10-24 22:13:37 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\jwt\api_jwt.py:149: InsecureKeyLengthWarning: The HMAC key is 14 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+2026-10-24 22:13:37 India Standard Time | INFO     | nsflow:_log:821 - nsflow -   return self._jws.encode(
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:300: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:301: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:310: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow -   elif re.match('(flt)p?( \(default\))?$', token):
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:314: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow -   elif re.match('(dbl)p?( \(default\))?$', token):
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow - C:\Users\zakav\hackathon\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+2026-10-24 22:13:38 India Standard Time | INFO     | nsflow:_log:821 - nsflow -   warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - frontend_dist_path: C:\Users\zakav\hackathon\.venv\Lib\site-packages\nsflow\prebuilt_frontend\dist
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - Serving frontend from: C:\Users\zakav\hackathon\.venv\Lib\site-packages\nsflow\prebuilt_frontend\dist
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Started server process [7988]
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Waiting for application startup.
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - FastAPI is starting up...
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - Initializing NeuroSan config from environment variables...
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - [Startup] Default NsConfig set to http://localhost:8080
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - Initializing local database 'nss_local.db'...
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:13:49 - root - INFO - Local database 'nss_local.db' initialized
+2026-10-24 22:13:49 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Application startup complete.
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - Manifest file C:\Users\zakav\hackathon\registries\manifest.hocon restored in 18.26 seconds.
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - Reading C:\Users\zakav\hackathon\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - GIL state at server startup:  standard CPython build (GIL always enabled). CPython 3.15.1.  PYTHON_GIL=unset
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Using Authorizer: neuro_san.service.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent basic/music_nerd to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent basic/music_nerd (4721 bytes): 1828888902496
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent agent_network_designer to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent agent_network_designer (37536 bytes): 1828888618064
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent agent_network_test_generator to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent agent_network_test_generator (45042 bytes): 1828889273184
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent tools/internet_info_gatherer to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent tools/internet_info_gatherer (6411 bytes): 1828886936336
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent agent_network_instructions_editor to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent agent_network_instructions_editor (25590 bytes): 1828889009360
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent experimental/cruse_theme_agent to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_theme_agent (25875 bytes): 1828889009056
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent experimental/cruse_widget_agent to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_widget_agent (12988 bytes): 1828888767824
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent agent_network_editor to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent agent_network_editor (31284 bytes): 1828889269104
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Added agent agent_network_query_generator to allowed http service list
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: ADDED network for agent agent_network_query_generator (8071 bytes): 1828886935696
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting HTTP server instance (worker_id=0 of 1, pid=14604)
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: HTTP server is shutting down after 956407 requests
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\Users\zakav\hackathon\registries\manifest.hocon'] with 5 seconds period
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan - {"message": "Registry polling watchdog started on: C:\Users\zakav\hackathon\registries for manifest ['C:\\Users\\zakav\\hackathon\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-10-24T22:13:55.585996", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-10-24 22:13:55 India Standard Time | ERROR    | NeuroSan:_log:817 - NeuroSan:HttpServer: HealthProbeServer failed to bind port 8081 (reuse_port=True): the platform doesn't support SO_REUSEPORT
+2026-10-24 22:13:55 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-10-24 22:14:21 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET / HTTP/1.1" 200 OK
+2026-10-24 22:14:21 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET /assets/index.js HTTP/1.1" 200 OK
+2026-10-24 22:14:21 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /assets/index.css HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET /api/v1/vite_config.json HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:51395 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:51395 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:51395 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /api/v1/mcp/oauth/redirect_uri HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53166 - "GET /api/v1/mcp/oauth/connections HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:50625 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:50625 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-10-24 22:14:25 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /nsflow.svg HTTP/1.1" 200 OK
+2026-10-24 22:14:26 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-10-24 22:14:26 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: [0] Start /api/v1/list
+2026-10-24 22:14:26 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: [0] 200 GET /api/v1/list (::1) 3.42ms
+2026-10-24 22:14:26 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:14:26 - httpx - INFO - HTTP Request: GET http://localhost:8080/api/v1/list "HTTP/1.1 200 OK"
+2026-10-24 22:14:26 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     127.0.0.1:53598 - "GET /api/v1/list?connection_type=http&host=localhost&port=8080 HTTP/1.1" 200 OK
+2026-10-24 22:14:26 India Standard Time | INFO     | NeuroSan:_log:821 - NeuroSan:HttpServer: [0] Finish /api/v1/list
+2026-10-24 22:14:58 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Shutting down
+2026-10-24 22:14:58 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Waiting for application shutdown.
+2026-10-24 22:14:58 India Standard Time | INFO     | nsflow:_log:821 - nsflow - 2026-10-24 22:14:58 - root - INFO - FastAPI is shutting down...
+2026-10-24 22:14:58 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Application shutdown complete.
+2026-10-24 22:14:58 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Finished server process [7988]
+2026-10-24 22:14:59 India Standard Time | INFO     | nsflow:_log:821 - nsflow - INFO:     Stopping reloader process [11988]
+2026-10-24 22:14:59 India Standard Time | INFO     | NeuroSanRunner:signal_handler:303 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-10-24 22:14:59 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-10-24 22:14:59 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
